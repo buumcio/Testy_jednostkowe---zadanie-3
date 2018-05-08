@@ -1,0 +1,32 @@
+body {
+    background-color: #fff;
+    text-align: center;
+    color: white; 
+    font-size: 20px;
+}
+#root {
+    margin: 70px 0;
+}
+input {
+    margin: 5px;
+}
+ul {
+    padding: 0;
+    width: auto;
+}
+li {
+    list-style-type: none;
+    margin: 50px;
+}
+span {
+    margin: 1px;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: #ccc;
+}
+.Player__score:hover,
+.Player__button:hover,
+.Player__button:hover {
+    background-color: red;
+    cursor: pointer;
+}
